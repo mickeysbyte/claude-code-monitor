@@ -2,7 +2,7 @@
 
 Real-time activity dashboard for Claude Code
 
-<!-- screenshot placeholder -->
+![Claude Code Monitor Dashboard](screenshot.png)
 
 ## Overview
 

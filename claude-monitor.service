@@ -1,0 +1,14 @@
+[Unit]
+Description=Claude Code Live Monitor
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/claude-monitor
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=default.target
